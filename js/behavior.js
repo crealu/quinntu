@@ -2,10 +2,12 @@
 
 function toggleNav() {
   let navLinks = document.getElementById('mobile-nav-list');
-  if (!(navLinks.style.left === '0px')) {
-    navLinks.style.left = '0px';
+  if (!(navLinks.style.left === '-25px')) {
+    navLinks.style.left = '-25px';
+    navLinks.style.opacity = 0;
   } else {
-      navLinks.style.left = '150px';
+      navLinks.style.left = '-100px';
+      navLinks.style.opacity = 1;
   }
 }
 
@@ -69,7 +71,7 @@ function parallaxScroll(){
   $('#parallax-5').css('top',(0 - (scrolled * .15)) + ' px');
 }
 
-$('#parallax-2').parallax({imageSrc: 'img/like1.JPG'});
-$('#parallax-3').parallax({imageSrc: 'img/like3.JPG'});
-$('#parallax-4').parallax({imageSrc: 'img/indo.JPG'});
-$('#parallax-5').parallax({imageSrc: 'img/gallax.JPG'});
+$('#parallax-2').parallax({imageSrc: 'img/landing.JPG'});
+$('#parallax-3').parallax({imageSrc: 'img/quinnwet.jpg'});
+$('#parallax-4').parallax({imageSrc: 'img/indo.jpg'});
+$('#parallax-5').parallax({imageSrc: 'img/gallax.jpg'});
