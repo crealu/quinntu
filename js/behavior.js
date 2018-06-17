@@ -71,7 +71,7 @@ function parallaxScroll(){
   $('#parallax-5').css('top',(0 - (scrolled * .15)) + ' px');
 }
 
-$('#parallax-2').parallax({imageSrc: 'img/landing.JPG'});
+$('#parallax-2').parallax({imageSrc: 'img/landing.jpg'});
 $('#parallax-3').parallax({imageSrc: 'img/quinnwet.jpg'});
 $('#parallax-4').parallax({imageSrc: 'img/indo.jpg'});
 $('#parallax-5').parallax({imageSrc: 'img/gallax.jpg'});
