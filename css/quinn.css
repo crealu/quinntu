@@ -1,3 +1,5 @@
+/* quinn css */
+
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Shadows+Into+Light|Signika|Raleway|Abril+Fatface');
 
 .container {
@@ -389,7 +391,7 @@
 }
 
 #parallax-4 {
-  background: url('img/indo.jpg');
+  background: transparent;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 800px;
@@ -397,7 +399,7 @@
 }
 
 #parallax-5 {
-  background: url('img/gallax.jpg');
+  background: transparent;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 800px;
