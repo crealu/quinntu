@@ -59,7 +59,11 @@ $(window).bind('scroll',function(e){
 function parallaxScroll(){
   var scrolled = $(window).scrollTop();
   $('#parallax-2').css('top',(0 - (scrolled * .25)) + ' px');
+  $('#parallax-2').parallax({imageSrc: 'img/landing.jpg'});
+
   $('#parallax-3').css('top',(0 - (scrolled * .15)) + ' px');
+  $('#parallax-3').parallax({imageSrc: 'img/quinnwet.jpg'});
+
   $('#parallax-4').css('top',(0 - (scrolled * .15)) + ' px');
   $('#parallax-5').css('top',(0 - (scrolled * .15)) + ' px');
 }
