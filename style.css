@@ -121,7 +121,8 @@
 }
 
 #parallax-2 {
-  background: transparent;
+  background: url('img/landing.jpg');
+  background-repeat: no-repeat;
   background-size: 100%;
   height: 800px;
   position: relative;
@@ -380,21 +381,24 @@
 }
 
 #parallax-3 {
-  background: transparent;
+  background: url('img/quinnwet.jpg');
+  background-repeat: no-repeat;
   background-size: 100%;
   height: 800px;
   position: relative;
 }
 
 #parallax-4 {
-  background: transparent;
+  background: url('img/indo.jpg');
+  background-repeat: no-repeat;
   background-size: 100%;
   height: 800px;
   position: relative;
 }
 
 #parallax-5 {
-  background: transparent;
+  background: url('img/gallax.jpg');
+  background-repeat: no-repeat;
   background-size: 100%;
   height: 800px;
   position: relative;
