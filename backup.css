@@ -7,9 +7,29 @@
 
 .parallax {
   perspective: 1px;
-  height: 700px;
+  height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
+}
+
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax-layer-back {
+  transform: translateZ(0);
+}
+
+.parallax-layer-back1 {
+  transform: translateZ(0);
+}
+
+.parallax-layer-base {
+  transform: translateZ(-1px) scale(2);
 }
 
 #quinn-nav {
@@ -121,8 +141,9 @@
 }
 
 #parallax-2 {
-  background: transparent;
+  background: url('img/landing.jpg');
   background-size: 100%;
+  background-repeat: none;
   height: 800px;
   position: relative;
 }
@@ -380,21 +401,24 @@
 }
 
 #parallax-3 {
-  background: transparent;
+  background: url('img/quinnwet.jpg');
+  background-repeat: none;
   background-size: 100%;
   height: 800px;
   position: relative;
 }
 
 #parallax-4 {
-  background: transparent;
+  background: url('img/indo.jpg');
+  background-repeat: none;
   background-size: 100%;
   height: 800px;
   position: relative;
 }
 
 #parallax-5 {
-  background: transparent;
+  background: url('img/gallax.jpg');
+  background-repeat: none;
   background-size: 100%;
   height: 800px;
   position: relative;
