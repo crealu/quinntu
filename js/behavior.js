@@ -65,8 +65,8 @@ function parallaxScroll(){
 }
 
 function updateParallax() {
-  $('#parallax-2').parallax({imageSrc: 'img/landing.jpg'});
-  $('#parallax-3').parallax({imageSrc: 'img/quinnwet.jpg'});
-  $('#parallax-4').parallax({imageSrc: 'img/indo.jpg'});
-  $('#parallax-5').parallax({imageSrc: 'img/gallax.jpg'});
+  $('#parallax-2').parallax({imageSrc: 'img/landing.JPG'});
+  $('#parallax-3').parallax({imageSrc: 'img/quinnwet.JPG'});
+  $('#parallax-4').parallax({imageSrc: 'img/indo.JPG'});
+  $('#parallax-5').parallax({imageSrc: 'img/gallax.JPG'});
 }
