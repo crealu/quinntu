@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/quinn.css" type="text/css">
     <title>QU↟NN TU</title>
@@ -41,10 +43,15 @@
               <a href="contact.html" class="navig-link">CONTACT</a>
               <div class="overline"></div>
             </div>
-            <div id="mobile-nav-div">
-              <img src="img/mobile-nav-btn.svg" id="mobile-box" onclick="toggleNav()"/>
+            <div id="mobile-nav-div" onclick="toggleNav()">
+              <div id="menu-select">
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+              </div>
               <ul id="mobile-nav-list">
-                <li><a href="lifestyle.html" class="navig-link">FOLLOW</a></li>
+                <li><a href="imagine.html" class="navig-link">IMAGINE</a></li>
+                <li><a href="follow.html" class="navig-link">FOLLOW</a></li>
                 <li><a href="projects.html" class="navig-link">PROJECTS</a></li>
                 <li><a href="gallery.html" class="navig-link">GALLERY</a></li>
                 <li><a href="contact.html" class="navig-link">CONTACT</a></li>
@@ -130,7 +137,7 @@
           <h3 id="featured-title">FEATURED VIDEO:</h3><br><br><br>
           <div id="vid-container">
             <video id="vid1" controls>
-              <source src="fourSigmatic1.mp4" type="video/mp4"></source>
+              <source src="img/fourSigmatic1.mp4" type="video/mp4"></source>
             </video><br><br>
           </div>
         </div>

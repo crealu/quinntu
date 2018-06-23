@@ -70,6 +70,24 @@
   display: block;
 }
 
+#menu-select {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+
+.menu-bar {
+  border-bottom: 1px solid white;
+  width: 100%;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
 #mobile-nav-div {
   display: none
 }
@@ -94,6 +112,10 @@
   position: relative;
   display: block;
   margin: 0 auto;
+}
+
+#mobile-nav-list li a {
+  font-size: 18px;
 }
 
 @media (max-width: 992px) and (min-width: 300px) {
@@ -406,6 +428,38 @@
   position: relative;
 }
 
+#parallax-imagine {
+  background: transparent;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 800px;
+  position: relative;
+}
+
+#parallax-follow {
+  background: transparent;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 800px;
+  position: relative;
+}
+
+#parallax-projects {
+  background: transparent;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 800px;
+  position: relative;
+}
+
+#parallax-gallery {
+  background: transparent;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 800px;
+  position: relative;
+}
+
 .inlax {
   position: relative;
   top: 300px;
@@ -458,4 +512,10 @@
   text-decoration: none;
   color: white;
   font-weight: 200;
+  transition: 0.10s;
+}
+
+.footer-link:hover {
+  color: grey;
+  text-decoration: none;
 }

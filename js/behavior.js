@@ -69,4 +69,17 @@ function parallaxScroll(){
 
   $('#parallax-5').css('top',(0 - (scrolled * .15)) + ' px');
   $('#parallax-5').parallax({imageSrc: 'img/gallax.jpg'});
+
+  $('#parallax-imagine').css('top',(0 - (scrolled * .15)) + ' px');
+  $('#parallax-imagine').parallax({imageSrc: 'img/quinnwet.jpg'});
+
+  $('#parallax-follow').css('top',(0 - (scrolled * .15)) + ' px');
+  $('#parallax-follow').parallax({imageSrc: 'img/quinnwet.jpg'});
+
+  $('#parallax-projects').css('top',(0 - (scrolled * .15)) + ' px');
+  $('#parallax-projects').parallax({imageSrc: 'img/indo.jpg'});
+
+  $('#parallax-gallery').css('top',(0 - (scrolled * .15)) + ' px');
+  $('#parallax-gallery').parallax({imageSrc: 'img/gallax.jpg'});
+
 }
