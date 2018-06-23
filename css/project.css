@@ -1,0 +1,22 @@
+/* project css */
+
+.project-box {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.project-title {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  color: #353535;
+}
+
+.project-video {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 640px;
+  height: 360px;
+}
