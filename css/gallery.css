@@ -1,0 +1,32 @@
+/* gallery css */
+
+#bwCarousel {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  width: 800px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) and (min-width: 300px) {
+  .carousel-item {
+    width: 400px;
+  }
+}
+
+.bw-photo {
+  width: 600px;
+  height: auto;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.carou-icon {
+  background: rgb(53, 53, 53, 0.7);
+}
