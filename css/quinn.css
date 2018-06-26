@@ -5,6 +5,7 @@
 body {
   overflow: none;
   width: 100%;
+  position: fixed;
 }
 
 .container {
