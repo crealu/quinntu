@@ -145,10 +145,6 @@ body {
   #quinn-nav {
     font-size: 36px;
   }
-  #mobile-box {
-    left: -40px;
-    top: 5px;
-  }
 }
 
 #parallax-2 {
@@ -195,6 +191,21 @@ body {
   width: 400px;
   font-size: 60px;
   font-family: 'Abril Fatface';
+}
+
+#landing-latest {
+  position: relative;
+  top: 0px;
+}
+
+@media (max-width: 600px) and (min-width: 300px) {
+  #xinchao {
+    top: 50px;
+  }
+
+  #landing-latest {
+    top: 50px;
+  }
 }
 
 .bordered-text {
