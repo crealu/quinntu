@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Shadows+Into+Light|Signika|Raleway|Abril+Fatface');
 
+body {
+  overflow: none;
+  width: 100%;
+}
+
 .container {
   margin-left: none;
   margin-right: none;
@@ -518,4 +523,15 @@
 .footer-link:hover {
   color: grey;
   text-decoration: none;
+}
+
+#quinn-nav-foot {
+  font-weight: 400;
+  z-index: 101;
+  color: white;
+  position: relative;
+  font-size: 48px;
+  transition: 0.5s;
+  float: left;
+  display: block;
 }
