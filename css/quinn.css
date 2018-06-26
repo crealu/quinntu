@@ -238,6 +238,12 @@ body {
   top: -100px;
 }
 
+#quinnfo1 {
+  background: white;
+  position: relative;
+  top: -100px;
+}
+
 .photo-box {
   width: 350px;
   height: 350px;
@@ -543,7 +549,7 @@ body {
   z-index: 101;
   color: white;
   position: relative;
-  font-size: 48px;
+  font-size: 36px;
   transition: 0.5s;
   display: block;
   margin: 0 auto;
@@ -563,4 +569,5 @@ body {
   top: 30px;
   font-family: Helvetica;
   font-weight: 100;
+  font-size: 16px
 }

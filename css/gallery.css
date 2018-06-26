@@ -1,18 +1,5 @@
 /* gallery css */
 
-#bwCarousel {
-  position: relative;
-  display: block;
-  margin: 0 auto;
-}
-
-.carousel-item {
-  width: 800px;
-  position: relative;
-  display: block;
-  margin: 0 auto;
-}
-
 @media (max-width: 767px) and (min-width: 300px) {
   .carousel-item {
     width: 400px;
@@ -27,6 +14,51 @@
   margin: 0 auto;
 }
 
-.carou-icon {
-  background: rgb(53, 53, 53, 0.7);
+.gallery-caro {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#new-here {
+  width: 800px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#prev-btn {
+  position: relative;
+  float: right;
+}
+
+#next-btn {
+  position: relative;
+  float: left;
+}
+
+#new-here1 {
+  width: 800px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#prev-btn1 {
+  position: relative;
+  float: right;
+}
+
+#next-btn1 {
+  position: relative;
+  float: left;
+}
+
+.caro-btns {
+  color: rgb(53, 53, 53, 0.7);
+  background: none;
+  border: none;
+  font-size: 36px;
+  position: relative;
+  top: 200px;
 }
